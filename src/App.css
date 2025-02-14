@@ -1,0 +1,25 @@
+form {
+  max-width: min(420px, 100dvw);
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.add-job-form {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+td {
+  white-space: normal !important; 
+  word-wrap: break-word;
+}
+table {
+  table-layout: fixed;
+  border-spacing: 30px;
+}
