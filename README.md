@@ -33,3 +33,10 @@ npm start
 yarn start
 ```
 This runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### Environment Variables
+
+Create a `.env` file in the root directory and define necessary environment variables:
+```
+REACT_APP_API_KEY = xxx(paste server URL here ie. http://localhost:5000/api)
+```
